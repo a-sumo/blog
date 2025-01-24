@@ -3,10 +3,10 @@
   "version": "4.7.0",
   "private": false,
   "scripts": {
-    "dev": "astro dev",
-    "start": "astro dev",
+    "dev": "astro dev --base /blog/",
+    "start": "astro dev --base /blog/ --host",
     "build": "astro build",
-    "preview": "astro preview",
+    "preview": "astro preview --base /blog/",
     "sync": "astro sync",
     "astro": "astro",
     "format:check": "prettier --check . --plugin=prettier-plugin-astro",

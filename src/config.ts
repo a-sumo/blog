@@ -1,9 +1,9 @@
 import type { Site, SocialObjects } from "./types";
 
 export const SITE: Site = {
-  website: "https://a-sumo.github.io", // replace this with your deployed domain
+  website: "https://a-sumo.github.io/blog/", // replace this with your deployed domain
   author: "Armand Sumo",
-  profile: "https://a-sumo.github.io/",
+  profile: "https://a-sumo.github.io/blog",
   desc: "Armand Sumo's Blog about technology and arts.",
   title: "Armand Sumo",
   ogImage: "astropaper-og.jpg",
@@ -13,7 +13,7 @@ export const SITE: Site = {
   scheduledPostMargin: 15 * 60 * 1000, // 15 minutes
   showArchives: true,
   editPost: {
-    url: "https://github.com/satnaing/astro-paper/edit/main/src/content/blog",
+    url: "https://github.com/a-sumo/blog/edit/main/src/content/blog",
     text: "Suggest Changes",
     appendFilePath: true,
   },

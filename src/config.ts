@@ -7,9 +7,9 @@ export const SITE: Site = {
   desc: "Armand Sumo's Blog about technology and arts.",
   title: "Armand Sumo",
   ogImage: "astropaper-og.jpg",
-  lightAndDarkMode: true,
-  postPerIndex: 4,
-  postPerPage: 3,
+  lightAndDarkMode: false,
+  postPerIndex: 5,
+  postPerPage: 4,
   scheduledPostMargin: 15 * 60 * 1000, // 15 minutes
   showArchives: true,
   editPost: {
